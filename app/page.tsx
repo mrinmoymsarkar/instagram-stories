@@ -17,7 +17,7 @@ export default async function HomePage() {
       <StoryList stories={stories} />
       <footer className="mt-12 text-center text-sm text-muted-foreground">
         <p>Navigate stories by tapping left/right edges or using arrow keys. Stories advance automatically every 5 seconds.</p>
-        <p>&copy; {new Date().getFullYear()} Story Explorer. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Story Explorer by Mrinmoy. All rights reserved.</p>
       </footer>
     </main>
   );
